@@ -20,6 +20,9 @@ const AlbumLayout = () => {
     <div className="row">
       <div className="col-4">
         左側選單列表
+        <p>
+          <Link to="search">搜尋頁面</Link>
+        </p>
         {list.map((item) => {
           return (
             <li key={item.id}>
