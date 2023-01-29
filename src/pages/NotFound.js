@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-const NotFound = () => {
+export const NotFound = () => {
   const navigate = useNavigate();
   useEffect(() => {
     setTimeout(() => {
@@ -12,5 +12,3 @@ const NotFound = () => {
     <div>這是不存在的頁面</div>
   );
 };
-
-export default NotFound;
