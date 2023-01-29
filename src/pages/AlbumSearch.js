@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
-import { Link, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import List from "../components/List";
 
 const api = "https://api.unsplash.com/search/photos";
 const accessId = process.env.REACT_APP_UNSPLASH_ACCESS;
@@ -44,13 +45,7 @@ const AlbumSearch = () => {
         }
       }}
     />
-    {list.map((item) => {
-      return (
-        <li key={item.id}>
-          <Link to={`/album/${item.id}`}>{item.id}</Link>
-        </li>
-      );
-    })}
+    <List list={list}></List>
   </>
   );
 };
