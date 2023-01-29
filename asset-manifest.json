@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/cra-router-record/static/js/main.ad721558.js",
+    "main.js": "/cra-router-record/static/js/main.b7963e88.js",
     "static/js/787.530fd91d.chunk.js": "/cra-router-record/static/js/787.530fd91d.chunk.js",
     "index.html": "/cra-router-record/index.html",
-    "main.ad721558.js.map": "/cra-router-record/static/js/main.ad721558.js.map",
+    "main.b7963e88.js.map": "/cra-router-record/static/js/main.b7963e88.js.map",
     "787.530fd91d.chunk.js.map": "/cra-router-record/static/js/787.530fd91d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ad721558.js"
+    "static/js/main.b7963e88.js"
   ]
 }
